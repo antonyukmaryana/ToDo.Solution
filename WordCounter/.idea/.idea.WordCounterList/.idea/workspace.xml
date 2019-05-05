@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0337ba64-98b8-4c93-9bac-82e4b99825e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/ControllerTests/HomeControllerTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/ControllerTests/ItemsControllerTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/ModelTests/ItemTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/ToDoList.Tests.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.Tests.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.Tests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.Tests.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.Tests.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/bin/Debug/netcoreapp1.1/ToDoList.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoList.Tests.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoList.Tests.Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoList.Tests.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoList.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoList.Tests.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoList.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/Debug/netcoreapp1.1/ToDoList.Tests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/ToDoList.Tests.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/ToDoList.Tests.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/ToDoList.Tests.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList.Tests/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/Controllers/HomeControllers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/Controllers/ItemsController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/Models/Item.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/ToDoList.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/Views/Items/CreateForm.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/Views/Items/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/bin/Debug/netcoreapp1.1/ToDoList.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/bin/Debug/netcoreapp1.1/ToDoList.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/bin/Debug/netcoreapp1.1/ToDoList.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/Debug/netcoreapp1.1/ToDoList.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/Debug/netcoreapp1.1/ToDoList.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/Debug/netcoreapp1.1/ToDoList.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/Debug/netcoreapp1.1/ToDoList.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/Debug/netcoreapp1.1/ToDoList.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/ToDoList.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/ToDoList.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/ToDoList.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ToDoList/obj/project.assets.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WordCounterList.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/Item.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <marker date="1557073377727" expanded="true" signature="67:795" ph="{...}" />
+                <marker date="1557073377727" expanded="true" signature="89:793" ph="{...}" />
+                <marker date="1557073377727" expanded="true" signature="293:375" ph="{...}" />
+                <marker date="1557073377727" expanded="true" signature="399:459" ph="{...}" />
+                <marker date="1557073377727" expanded="true" signature="487:555" ph="{...}" />
+                <marker date="1557073377727" expanded="true" signature="577:639" ph="{...}" />
+                <marker date="1557073377727" expanded="true" signature="678:715" ph="{...}" />
+                <marker date="1557073377727" expanded="true" signature="750:788" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/HomeControllers.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding>
+                <marker date="1557024376477" expanded="true" signature="70:227" ph="{...}" />
+                <marker date="1557024376477" expanded="true" signature="117:225" ph="{...}" />
+                <marker date="1557024376477" expanded="true" signature="179:218" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controllers/WordCounterController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+              <folding>
+                <marker date="1557075005847" expanded="false" signature="6:109" ph="..." />
+                <marker date="1557075005847" expanded="true" signature="148:1103" ph="{...}" />
+                <marker date="1557075005847" expanded="true" signature="194:1101" ph="{...}" />
+                <marker date="1557075005847" expanded="true" signature="262:362" ph="{...}" />
+                <marker date="1557075005847" expanded="true" signature="435:480" ph="{...}" />
+                <marker date="1557075005847" expanded="true" signature="575:749" ph="{...}" />
+                <marker date="1557075005847" expanded="true" signature="818:1097" ph="{...}" />
+                <marker date="1557075005847" expanded="true" signature="944:1060" ph="{...}" />
+                <marker date="1557075005847" expanded="true" signature="995:1048" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Home/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Items/Form.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <marker date="1557072074443" expanded="true" signature="16:468" ph="&lt;html.../&gt;" />
+                <marker date="1557072074443" expanded="true" signature="25:101" ph="&lt;head.../&gt;" />
+                <marker date="1557072074443" expanded="true" signature="104:460" ph="&lt;body.../&gt;" />
+                <marker date="1557072074443" expanded="true" signature="147:449" ph="&lt;form.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../WordCounter1.Solution/WordCounter/Models/WordCounter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/Items/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <marker date="1557073702133" expanded="true" signature="59:286" ph="&lt;ul.../&gt;" />
+                <marker date="1557073702133" expanded="true" signature="65:138" ph="@..." />
+                <marker date="1557073702133" expanded="true" signature="87:138" ph="{...}" />
+                <marker date="1557073702133" expanded="true" signature="139:279" ph="@..." />
+                <marker date="1557073702133" expanded="true" signature="160:279" ph="{...}" />
+                <marker date="1557073702133" expanded="true" signature="193:277" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Controllers/WordCounterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/HomeControllers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Models/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Items/Form.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Items/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../WordCounter1.Solution/WordCounter/Models/WordCounter.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Models/Item.cs" />
+        <option value="$PROJECT_DIR$/Views/Items/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Controllers/ItemsController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/WordCounterController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="415" />
+    <option name="y" value="62" />
+    <option name="width" value="1143" />
+    <option name="height" value="669" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordCounterList" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordCounterList" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordCounterList" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordCounterList" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordCounterList" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="WordCounterList" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Items" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0337ba64-98b8-4c93-9bac-82e4b99825e6" name="Default Changelist" comment="" />
+      <created>1557073233745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557073233745</updated>
+      <workItem from="1557073237157" duration="2926000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2926000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="415" y="62" width="1143" height="669" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.208901" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Views/Items/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1557073702133" expanded="true" signature="59:286" ph="&lt;ul.../&gt;" />
+            <marker date="1557073702133" expanded="true" signature="65:138" ph="@..." />
+            <marker date="1557073702133" expanded="true" signature="87:138" ph="{...}" />
+            <marker date="1557073702133" expanded="true" signature="139:279" ph="@..." />
+            <marker date="1557073702133" expanded="true" signature="160:279" ph="{...}" />
+            <marker date="1557073702133" expanded="true" signature="193:277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/WordCounterController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <marker date="1557075005847" expanded="false" signature="6:109" ph="..." />
+            <marker date="1557075005847" expanded="true" signature="148:1103" ph="{...}" />
+            <marker date="1557075005847" expanded="true" signature="194:1101" ph="{...}" />
+            <marker date="1557075005847" expanded="true" signature="262:362" ph="{...}" />
+            <marker date="1557075005847" expanded="true" signature="435:480" ph="{...}" />
+            <marker date="1557075005847" expanded="true" signature="575:749" ph="{...}" />
+            <marker date="1557075005847" expanded="true" signature="818:1097" ph="{...}" />
+            <marker date="1557075005847" expanded="true" signature="944:1060" ph="{...}" />
+            <marker date="1557075005847" expanded="true" signature="995:1048" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controllers/HomeControllers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1557024376477" expanded="true" signature="70:227" ph="{...}" />
+            <marker date="1557024376477" expanded="true" signature="117:225" ph="{...}" />
+            <marker date="1557024376477" expanded="true" signature="179:218" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <marker date="1557073377727" expanded="true" signature="67:795" ph="{...}" />
+            <marker date="1557073377727" expanded="true" signature="89:793" ph="{...}" />
+            <marker date="1557073377727" expanded="true" signature="293:375" ph="{...}" />
+            <marker date="1557073377727" expanded="true" signature="399:459" ph="{...}" />
+            <marker date="1557073377727" expanded="true" signature="487:555" ph="{...}" />
+            <marker date="1557073377727" expanded="true" signature="577:639" ph="{...}" />
+            <marker date="1557073377727" expanded="true" signature="678:715" ph="{...}" />
+            <marker date="1557073377727" expanded="true" signature="750:788" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounterList.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/Items/Form.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <marker date="1557072074443" expanded="true" signature="16:468" ph="&lt;html.../&gt;" />
+            <marker date="1557072074443" expanded="true" signature="25:101" ph="&lt;head.../&gt;" />
+            <marker date="1557072074443" expanded="true" signature="104:460" ph="&lt;body.../&gt;" />
+            <marker date="1557072074443" expanded="true" signature="147:449" ph="&lt;form.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WordCounter1.Solution/WordCounter/Models/WordCounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
